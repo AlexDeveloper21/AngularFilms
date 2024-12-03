@@ -1,0 +1,21 @@
+@if (!listado)
+{
+  <app-cargando></app-cargando>
+}
+@else if (listado.length === 0)
+{
+  <div #vacio>
+    <ng-content select="[vacio]"></ng-content>
+  </div>
+  
+  @if(!vacio.innerHTML.trim()){
+    <div>
+      <p>No hay películas para mostrar</p>
+    </div>
+  }
+}
+@else
+{
+  <ng-content select="[contenido]" class="listado-pelis"></ng-content>
+}
+
