@@ -1,27 +1,17 @@
-# AngularPeliculas
+# Proyecto Angular 18
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.1.
+Este proyecto está desarrollado utilizando **Angular 18**. Se trata de una aplicación moderna que incluye varias funcionalidades avanzadas y utiliza distintas dependencias que se detallan a continuación.
 
-## Development server
+## Tecnologías y Herramientas Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Angular 18**: La última versión del framework Angular para la creación de aplicaciones web modernas y rápidas.
+- **Angular Router**: Para la gestión de rutas en la aplicación.
+- **SweetAlert2**: Para mostrar alertas y cuadros de diálogo amigables al usuario.
+- **Angular Material**: Se utiliza el componente `MAT_FORM_FIELD_DEFAULT_OPTIONS` para gestionar las opciones de los campos de formulario.
+- **Moment.js Adapter**: Para manejar y formatear fechas de manera más flexible.
+- **HttpClient**: Para realizar peticiones HTTP con soporte para interceptores personalizados.
 
-## Code scaffolding
+## Requisitos Previos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- **Node.js** (v16.0 o superior): Para ejecutar Angular.
+- **Angular CLI:** Instalado globalmente para gestionar el desarrollo de la aplicación.
